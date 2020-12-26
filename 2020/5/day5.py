@@ -60,7 +60,6 @@ def part1(seats):
     return maxID
 
 def part2(seats):
-    myID = None
     IDs = [i[2] for i in seats]
     IDs.sort()
     for i in range(len(IDs) - 1):
